@@ -10,8 +10,6 @@ Protótipo acadêmico de uma plataforma para registrar problemas ambientais e so
   <img src="docs/assets/ocorrencias.png" width="250" alt="Histórico demonstrativo de ocorrências">
 </p>
 
-Capturas reais da aplicação web executada localmente. Os registros mostrados são fictícios.
-
 ## Tecnologias
 
 | Camada | Tecnologias e uso |
@@ -34,8 +32,6 @@ Capturas reais da aplicação web executada localmente. Os registros mostrados s
 | API REST de ocorrências | Ainda não implementada |
 | Integração frontend → backend | Ainda não implementada |
 | Empacotamento Android | Estrutura Capacitor presente; APK não validado nesta publicação |
-
-O frontend usa **React com Capacitor**. O PDF acadêmico original menciona React Native e endpoints de ocorrências; essas descrições representam o material original e não o estado do código publicado. O quadro acima é a referência atual.
 
 ## Rodar a interface
 
@@ -79,7 +75,7 @@ Para PostgreSQL, siga o [guia do backend](backend/README.md). Para Android, siga
 - `frontend`: telas, navegação e projeto Android Capacitor.
 - `backend`: API REST e persistência.
 - `docs/assets`: capturas reais da interface.
-- `docs/proposta-academica-original.pdf`: proposta original, com divergências descritas acima.
+- `docs/proposta-academica-original.pdf`: proposta original.
 
 Próximas etapas: autenticação, API de ocorrências, integração da interface, persistência das evidências e validação Android.
 
